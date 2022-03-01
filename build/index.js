@@ -27,6 +27,7 @@ app.get("/", (req, res) => {
         data: {},
     });
 });
+
 const PORT = process.env.PORT || 3000;
 const URI = process.env.MONGO_URI || undefined;
 app.listen(PORT, async () => {
